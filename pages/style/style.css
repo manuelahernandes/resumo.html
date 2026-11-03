@@ -19,3 +19,27 @@
 .texto-tres{
     font-family: 'Blue Screen';
 }
+
+nav ul{
+    list-style: none;
+    
+}
+
+nav ul li{
+    display: inline-block;
+    width: 100px;
+    height: 15px;
+    margin: 5px;
+    padding: 5px;
+
+    text-align: center;
+
+    background-color: beige;
+
+    border-radius: 15px;
+}
+
+ nav ul li a{
+    text-decoration: none;
+}
+

@@ -1,0 +1,55 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+@font-face {
+    font-family: 'Sabrina';
+    src: url(/font/sabrina.zip/Sabrina_) format('truetype'),
+    url(/font/sabrina.zip/Sabrinas) format('truetype')
+}
+.texto-um{
+    font-family: 'Roboto';
+}
+
+.texto-dois{
+    font-family: 'Montserrat';
+}
+
+.texto-tres{
+    font-family: 'Blue Screen';
+}
+
+nav ul{
+    list-style: none;
+    
+}
+
+nav ul li{
+    display: inline-block;
+    width: 100px;
+    height: 15px;
+    margin: 5px;
+    padding: 5px;
+
+    text-align: center;
+
+    background-color: beige;
+
+    border-radius: 15px;
+}
+
+ nav ul li a{
+    text-decoration: none;
+}
+
+#menu-lista{
+    height: 0px;
+    overflow: hidden;
+    transition: heigth 0.5s;
+}
+
+#lista-menu:hover #menu-lista{
+    height: 600px;
+    width: 100vh;
+}
